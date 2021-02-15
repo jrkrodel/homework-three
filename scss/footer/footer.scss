@@ -1,0 +1,36 @@
+footer {
+  width: 1280px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: $site-blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo/logo-white.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  p {
+    font-family: Gill;
+    font-size: 12px;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: white;
+  }
+
+  h2 {
+    font-family: Gill;
+    font-size: 25px;
+    word-spacing: 25px;
+    text-decoration: none;
+    margin-bottom: 0;
+    color: white;
+  }
+}

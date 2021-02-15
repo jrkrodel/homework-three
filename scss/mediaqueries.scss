@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+  .promo-tours {
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  .promo-israel,
+  .promo-usa,
+  .promo-australia {
+    margin: 0 auto 30px auto;
+  }
+
+  .header h1 {
+    text-align: center;
+  }
+  .top-half {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-email {
+    margin-top: 20px;
+  }
+  .bottom-half {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-hotel {
+    margin-top: 20px;
+  }
+
+  .check-in,
+  .check-out {
+    padding-right: 100px;
+  }
+  .adults,
+  .children,
+  .rooms {
+    margin-bottom: 20px;
+  }
+
+  .form-details {
+    flex-direction: column;
+  }
+}

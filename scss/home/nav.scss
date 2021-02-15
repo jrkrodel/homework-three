@@ -1,0 +1,40 @@
+nav {
+  width: 980px;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: $white solid 2px;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    background-image: url(../images/logo/logo-white.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .links {
+    width: 525px;
+    height: 42px;
+    // background-color: firebrick;
+    align-self: center;
+    display: flex;
+
+    a {
+      font-family: Gill;
+      font-size: 15px;
+      padding-right: 20px;
+      padding-left: 20px;
+      text-decoration: none;
+      color: white;
+      margin: auto;
+      border-right: $site-blue solid 2px;
+    }
+  }
+  .links :last-child {
+    border: none;
+  }
+}

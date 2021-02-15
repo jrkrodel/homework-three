@@ -1,0 +1,166 @@
+.booking-form {
+  width: 818px;
+  height: 100%;
+  margin: 30px auto 100px auto;
+  font-family: Gill;
+  font-size: 18px;
+  // background-color: darksalmon;
+
+  .header {
+    width: 818px;
+    margin: 50px auto 0 auto;
+
+    h1 {
+      font-family: Proxima;
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .top-half {
+    width: 818px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: burlywood;
+    margin-bottom: 20px;
+
+    .form-name {
+      width: 42%;
+      height: 58px;
+      padding-left: 15px;
+      font-family: Gill;
+
+      font-size: 18px;
+      border-color: $site-blue;
+      border-style: solid;
+      border-width: 1px;
+      outline: none;
+    }
+    .form-email {
+      width: 55%;
+      height: 58px;
+      padding-left: 15px;
+      font-family: Gill;
+      font-size: 18px;
+      border-color: $site-blue;
+      border-style: solid;
+      border-width: 1px;
+      outline: none;
+    }
+  }
+  .bottom-half {
+    width: 818px;
+    display: flex;
+    justify-content: space-between;
+    // background-color: burlywood;
+
+    .form-country {
+      width: 42%;
+      height: 58px;
+      padding-left: 15px;
+      font-family: Gill;
+      font-size: 18px;
+      border-color: $site-blue;
+      border-style: solid;
+      border-width: 1px;
+      outline: none;
+    }
+    .form-hotel {
+      width: 55%;
+      height: 58px;
+      padding-left: 15px;
+      font-family: Gill;
+      font-size: 18px;
+      border-color: $site-blue;
+      border-style: solid;
+      border-width: 1px;
+      outline: none;
+    }
+  }
+
+  .form-date {
+    width: 818px;
+    // background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .check-in {
+    width: 698px;
+    height: 58px;
+    font-family: Gill;
+    margin-top: 20px;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: $site-blue;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+  }
+  .check-out {
+    width: 698px;
+    height: 58px;
+    font-family: Gill;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-color: $site-blue;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+  }
+
+  .form-details {
+    width: 818px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .adults,
+    .children,
+    .rooms {
+      height: 58px;
+      width: 103px;
+      padding-left: 15px;
+      font-family: Gill;
+      font-size: 18px;
+      border-color: $site-blue;
+      border-style: solid;
+      border-width: 1px;
+      outline: none;
+    }
+  }
+
+  .message {
+    padding: 20px;
+    width: 818px;
+    height: 192px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Gill;
+    font-size: 18px;
+    border-color: $site-blue;
+    border-style: solid;
+    border-width: 1px;
+    outline: none;
+  }
+  .form-submit {
+    width: 813px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: $site-blue;
+    color: white;
+    font-family: Gill;
+    border: none;
+    font-size: 20px;
+    margin-top: 20px;
+    outline: none;
+  }
+}
